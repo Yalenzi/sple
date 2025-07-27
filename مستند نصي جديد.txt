@@ -1,0 +1,358 @@
+
+object
+: {5}
+totalQuestions
+:
+18874
+pharmaceuticalQuestions
+:
+3161
+subjectCounts
+: {51}
+Clinical Sciences
+:
+9395
+Social-Behavioral-Administrative Sciences
+:
+614
+Basic Biomedical Sciences
+:
+5452
+Pharmaceutical Sciences
+:
+3161
+Endocrinology
+:
+16
+Pharmaceutical Sciences,Social-Behavioral-Administrative Sciences
+:
+1
+Clinical Sciences,Pharmaceutical Sciences
+:
+3
+Pharmaceutical Chemistry
+:
+1
+Pharmacy Practice
+:
+14
+Cardiology
+:
+9
+Social-Behavioral-Administrative Sciences,Basic Biomedical Sciences
+:
+10
+Pharmacy Management
+:
+2
+Pharmacology
+:
+30
+Immunology
+:
+5
+Microbiology
+:
+2
+Pharmaceutical Sciences,Clinical Sciences
+:
+5
+Infectious Diseases
+:
+3
+Toxicology
+:
+5
+Pulmonology
+:
+4
+Neurology
+:
+3
+Public Health
+:
+4
+Epidemiology
+:
+1
+Pediatrics
+:
+2
+Nutrition
+:
+1
+Hematology
+:
+4
+Nephrology
+:
+3
+Infectious Disease
+:
+2
+Rheumatology
+:
+2
+Gastroenterology
+:
+1
+Healthcare System
+:
+1
+Obstetrics
+:
+2
+Pharmacogenomics
+:
+1
+Genetics
+:
+1
+Pharmacognosy
+:
+2
+Research Methodology
+:
+4
+Health Economics
+:
+1
+Psychiatry
+:
+1
+Oncology
+:
+1
+Biochemistry
+:
+1
+Uncategorised
+:
+27
+(Clinical Sciences)
+:
+38
+(Pharmaceutical Sciences)
+:
+7
+(Basic Biomedical Sciences)
+:
+22
+Clinical Sciences Basic Biomedical Sciences Basic Biomedical Sciences Clinical Sciences
+:
+1
+Social-Behavioral-Administrative Sciences,Clinical Sciences
+:
+1
+Clinical Sciences,Social-Behavioral-Administrative Sciences
+:
+1
+Clinical Sciences Social-Behavioral-Administrative Sciences Pharmaceutical Sciences Social-Behavioral-Administrative Sciences
+:
+1
+Social-Behavioral-Administrative Sciences Social-Behavioral-Administrative Sciences Social-Behavioral-Administrative Sciences Social-Behavioral-Administrative Sciences
+:
+2
+Pharmaceutical Sciences Basic Biomedical Sciences Clinical Sciences Social-Behavioral-Administrative Sciences
+:
+1
+Clinical Sciences Basic Biomedical Sciences Clinical Sciences Clinical Sciences
+:
+1
+undefined
+:
+2
+samplePharmaceutical
+: Array(2)
+0
+: {12}
+correct_choice
+:
+"C"
+exam_id
+:
+"22f43d4a-db23-480f-88f4-d78e9c0f4268"
+examname
+:
+"SPLE"
+file_name
+:
+"2021"
+id
+:
+"5932996b-5d50-4248-9278-80dadd8ecec9"
+option_a
+:
+" Lubricant"
+option_b
+:
+" plasticizer"
+option_c
+:
+" emulsifying agent"
+option_d
+:
+" suspending agent"
+question_text
+:
+"What material do we add and improve the homogeneity between the solvent and the dissolved particles?"
+rationale
+:
+"An emulsifying agent (emulsifier) is a surface-active ingredient that adsorbs at the newly formed oil-water interface during emulsion preparation, and it protects the newly formed droplets against immediate recoalescence. "
+subject
+:
+"Pharmaceutical Sciences"
+1
+: {12}
+correct_choice
+:
+"D"
+exam_id
+:
+"22f43d4a-db23-480f-88f4-d78e9c0f4268"
+examname
+:
+"SPLE"
+file_name
+:
+"2021"
+id
+:
+"20352424-8500-40e8-8f46-f6dc05555886"
+option_a
+:
+" Clarence increases"
+option_b
+:
+"Does the size of the distribution increase"
+option_c
+:
+"I don’t know anything"
+option_d
+:
+" precipitant"
+question_text
+:
+"When adding PEG to a composite "
+rationale
+:
+"PEG is commonly used as a precipitant for plasmid DNA isolation and protein crystallization. X-ray diffraction of protein crystals can reveal the atomic structure of the proteins. PEG is used to fuse two different types of cells, most often B-cells and myelomas in order to create hybridomas "
+subject
+:
+"Pharmaceutical Sciences"
+sampleAll
+: Array(3)
+0
+: {12}
+correct_choice
+:
+"A"
+exam_id
+:
+"22f43d4a-db23-480f-88f4-d78e9c0f4268"
+examname
+:
+"SPLE"
+file_name
+:
+"2021"
+id
+:
+"60d7146e-a320-4fb3-8580-fa62eba7732f"
+option_a
+:
+"peripheral edema"
+option_b
+:
+" fever"
+option_c
+:
+" ototoxicity"
+option_d
+:
+" hepatotoxicity"
+question_text
+:
+"amlodipine side effect?"
+rationale
+:
+"Amlodipine and nifedipine are common drugs associated with vasodilatory edema. When used as monotherapy, calcium channel blockers (CCBs) are associated with a substantial risk of peripheral edema, including pedal edema, which is the most common reason for its discontinuation. CCB-induced oedema is caused by increased capillary hydrostatic pressure that results from preferential dilation of pre-capillary vessels. "
+subject
+:
+"Clinical Sciences"
+1
+: {12}
+correct_choice
+:
+"A"
+exam_id
+:
+"22f43d4a-db23-480f-88f4-d78e9c0f4268"
+examname
+:
+"SPLE"
+file_name
+:
+"2021"
+id
+:
+"6d89d5b1-0174-41d0-9efc-230a4e69cec7"
+option_a
+:
+"Isotretinoin "
+option_b
+:
+" folic acid"
+option_c
+:
+" riboflavin"
+option_d
+:
+" all above"
+question_text
+:
+"vitamin A name?"
+rationale
+:
+"Oral isotretinoin is a synthetic vitamin A analog that should be considered for all patients with moderate-or-severe recalcitrant acne, provided there are no contraindications. "
+subject
+:
+"Clinical Sciences"
+2
+: {12}
+correct_choice
+:
+"D"
+exam_id
+:
+"22f43d4a-db23-480f-88f4-d78e9c0f4268"
+examname
+:
+"SPLE"
+file_name
+:
+"2021"
+id
+:
+"445d03e3-b9f7-4913-b2be-b9883c44202d"
+option_a
+:
+"-hydroquinon. - -"
+option_b
+:
+"hydrocortison 1%. "
+option_c
+:
+"- -mild soap"
+option_d
+:
+" topical retinoid"
+question_text
+:
+"inflammatory acne:"
+rationale
+:
+"First-line treatment for moderate acne vulgaris includes a combination of benzoyl peroxide and a topical antibiotic (erythromycin or clindamycin), topical retinoid, or both; benzoyl peroxide, an oral antibiotic, and topical retinoid; or benzoyl peroxide, oral and topical antibiotics, and a topical retinoid "
+subject
+:
+"Clinical Sciences"

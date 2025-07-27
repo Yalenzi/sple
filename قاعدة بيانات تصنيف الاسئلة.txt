@@ -1,0 +1,152 @@
+Basic Biomedical Sciences (Approximately 10% of Test) 
+ 1	Physiology: 
+1.1.1	Function of the major body systems and homeostatic impact at organ and system level
+1.2	Biochemistry: 
+1.2.1	Chemistry and utilization of biomacromolecules including proteins, lipids, carbohydrates, nucleic acid, intermediary metabolism of energy and nutritional molecules
+1.2.2	Enzymology and coenzymes and kinetics
+1.2.3	Cell chemistry, signal transduction pathways
+1.2.4	DNA and RNA science and protein synthesis
+1.3	Microbiology Related to Human Diseases: 
+1.3.1	Structure, function, and characteristics of microorganisms: microbe classification, structure, metabolism, genetics
+1.3.2	Pathogenic microorganisms of humans: causative agents and transmission
+1.4	Immunology: 
+1.4.1	Innate and adaptive immunity
+1.4.2	Principles of antibody actions
+1.4.3	Hypersensitivity and types of reactions
+1.4.4	Molecular genetics, genomic, proteomic, and metabolic principles that serve as a foundation for
+pharmacogenomics and the genetic basis of disease
+
+2.1	Medicinal Chemistry: 
+2.1.1	Physicochemical properties of drugs in relation to drug absorption, distribution, metabolism, and excretion (ADME)
+2.1.2	Chemical basis for drug action
+2.1.3	Fundamental pharmacophores for drugs used to treat diseases
+2.1.4	Structure-activity relationships in relation to drug-receptor interactions
+2.1.5	Chemical pathways of drug metabolism
+2.1.6	Applicability of structure activity relationship to make drug therapy decision
+2.1.7	Drug development process
+
+2.2	Pharmacology and Toxicology: 
+2.2.1	Mechanisms of action of drugs of various categories including biologics
+2.2.2	Pharmacodynamics and response
+2.2.3	Classes of drugs, including individual agents and their approved indications
+2.2.4	Adverse effects, side effects, contraindications and teratogenicity of drugs
+2.2.5	Mechanisms of drug-drug interactions
+2.2.6	Drug discovery and development
+2.2.7	Acute and chronic toxicity, including drug and chemical overdose and antidotes
+
+
+2.3	Pharmacognosy and Dietary Supplements
+2.3.1	Concepts of crude drugs, semi-purified, and purified natural products
+2.3.2	Classes of pharmacologically active natural products
+2.3.3	Science of dietary supplements (vitamins, minerals, and herbals)
+
+2.4	Pharmaceutics/Biopharmaceutics
+2.4.1	Biopharmaceutical principles of drug delivery to the body via dosage forms: liquid, solid, semisolid, controlled release, patches, implants
+2.4.2	Materials and methods used in preparation of drug dosage forms
+2.4.3	Physicochemical properties relating to drug entities and dosage forms
+2.4.4	Principles of drug and dosage form stability, including chemical degradation and physical instability
+2.4.5	Principles of biotechnology and its application
+2.4.6	Principles of drug dosage form administration
+
+2.5	Pharmacokinetics
+2.5.1	Basic principles of in-vivo drug kinetics (linear and nonlinear)
+2.5.2	Principles of bioavailability and bioequivalence
+2.5.3	Physiologic determinates of drug onset and duration, including disease and dietary influences on absorption, distribution, metabolism, and excretion
+ 
+
+2.6	Sterile and Nonsterile Compounding
+2.6.1	International Pharmacopeia guidelines on sterile and nonsterile compounding, hazardous drugs, and regulation of compounding.
+2.6.2	Techniques and principles used to prepare dispense extemporaneous prescriptions and chemotherapy agents including labeling and dating of compounded dosage form.
+2.6.3	Pharmaceutical calculations.
+2.6.4	Sterile admixture techniques, including stability, clean-room requirements, sterility testing, and dating.
+   
+3.1	Health Care Delivery Systems and Public Health
+3.1.1	Organization of health care delivery systems in the Kingdom of Saudi Arabia
+3.1.2	Social, political, and economic factors that influence the delivery of health care in the Kingdom of Saudi Arabia
+3.1.3	Public Health and Wellness: chronic disease prevention, health promotion, infectious disease control,demographics, physical, social, and environmental factors leading to disease, comparing and contrasting public health with individual medical care
+
+3.2	Population-Based Care and Pharmacoepidemiology
+3.2.1	Data sources and analytic tools that provide an estimate of the probability of beneficial or adverse effects of medication use in large populations
+3.2.2	Application of epidemiological study designs to evaluate drug use and outcomes in large populations
+3.2.3	Methods for continually monitoring unwanted effects and other safety-related aspects of medication use in large populations
+3.2.4	Pharmacovigilance and medication safety
+
+3.3	Pharmacoeconomics and Humanistic Outcomes of Health Care Delivery
+3.3.1	Pharmacoeconomic analysis and its application to improve the allocation of limited health care resources
+3.3.2	Humanistic outcomes and their application to improve the allocation of limited health care resources
+
+3.4	Pharmacy Practice Management
+3.4.1	Management principles (planning, organizing, directing, and controlling pharmacy resources) applied to various pharmacy practice setting and patient outcomes
+3.4.2	Marketing of products and services: product versus service pricing, distribution, promotion
+3.4.3	Accounting, budgeting and financial management
+
+3.5	Pharmacy Law and Regulatory Affairs
+3.5.1	Legal and regulatory principles applied to pharmacy practice: dispensing, professional services, drug use control
+3.5.2	Administrative, civil, and criminal liability
+3.5.3	Authority, responsibilities, and operation of agencies and entities that promulgate or administer laws, regulations, or guidance related to practice and prescription, controlled substances, and nonprescription medications
+
+3.6	Biostatistics and Research Design
+3.6.1	Research study designs used in medical research
+3.6.2	Application and interpretation of statistical tests and data collection instruments
+ 
+3.7	Ethical Decision Making
+3.7.1	Principles of biomedical ethics
+3.7.2	Ethical dilemmas in the delivery of patient, centered care including, conflicts of interest, end-of- life decision making, use of codes of ethics, oaths of the pharmacist
+3.7.3	Research ethics
+
+3.8	Professional Communication
+3.8.1	Principles of communication abilities (appropriate verbal, nonverbal, visual, and written) with patient and caregivers, including empathetic communication and effective use of health literacy tools
+3.8.2	Principles of communication abilities with other health care providers
+3.8.3	Assertiveness and problem-solving techniques in relation to difficult social and professional conflicts and situations
+3.8.4	Measurement and use of health literacy in pharmacy communications
+3.8.5	Development of cultural competency in pharmacy personnel such that services are respectful of and responsive to the health beliefs, practices, and cultural and linguistic needs of diverse patient populations
+
+3.9	Social and Behavioral Aspects of Pharmacy Practice
+3.9.1	Application of behavior modification principles in health and illness behaviors of patients
+3.9.2	Patient adherence to therapies and recommendations
+
+3.10	Medication Dispensing and Distribution Systems
+3.10.1	Systems for safe and effective preparation and dispensing of medications in all types of practice settings
+3.10.2	Role of automation and technology: pharmacy informatics, information management
+3.10.3	Continuous quality improvement programs or protocols in the medication-use process, including identification and prevention of medication errors, and establishment of error reduction programs
+ 
+4.1	Drug Information and Evidence-based Practice 
+4.1.1	Interpret and evaluate drug information and evidence based practice in the patient care decision-making process
+4.1.2	Apply drug-information skills for the delivery of medication therapy management
+4.1.3	Evaluate the reliability of various sources of information
+4.1.4	Interpret guidelines as they apply in a clinical setting
+4.1.5	Utilize basic science principles in the development and/or implementation of drug treatment protocols and clinical practice guidelines
+
+4.2	Clinical Pharmacokinetics
+4.2.1	Identify common drugs that require therapeutic drug monitoring and utilize appropriate monitoring pharmacokinetic parameters to avoid toxicity and maintain efficacy
+
+4.3	Clinical pharmacogenomics
+4.3.1	Utilize basic pharmacogenomics information to individualize drug therapy
+
+4.4	Disease Prevention and Population Health
+4.4.1	Recognize the proper use of nonpharmacologic therapies, including complementary and alternative medicines
+4.4.2	Describe measures to promote wellness and disease prevention
+4.4.3	Identify the role of immunizations in disease prevention and health promotion
+
+4.5	Patient Assessment
+4.5.1	Describe techniques for obtaining a comprehensive patient history
+4.5.2	Describe how to perform patient physical assessments. .
+4.5.3	Differentiate between normal physical assessment findings and modifications caused by common disease states and drug therapy
+4.5.4	Identify and prioritize drug related problems
+4.5.5	Interpret common clinical laboratory values and diagnostic tests
+4.5.6	Perform calculations related to patient assessment
+
+4.6	Clinical Pharmacology and Therapeutic Decision Making 
+4.6.1	Apply concepts of pathophysiology to clinical decision making
+4.6.2	Make therapy recommendations based on dosage calculations, specific uses and indications of drugs and nutritional and support therapy
+4.6.3	Assess pharmacotherapy considering contraindications, therapeutic duplications, di etary interactions, adverse drug reactions and interactions, and allergies
+4.6.4	Triage and identify when to refer patients to other health professionals
+4.6.5	Design patient-centered, culturally-relevant treatment plans
+4.6.6	Apply evidence-based decision making to patient care
+ 
+4.6.7	Recommend nonprescription and natural product therapies 
+4.6.8	Identify and manage drug side effects, toxicity, drug-induced diseases, and drug misuse or abuse
+4.6.9	Monitor drug therapy for safety, effectiveness, non-adherence, misuse and/or abuse
+4.6.10	Genetic Variants affecting drug action and metabolism, adverse drug reactions, and disease risk that influence the practice of personalized medicine
+4.6.11	Counsel and educate patients in the different settings on all types of pharmaceutical agents to ensure safe and proper use of medications, storage and proper administration
+4.6.12	Pharmacotherapy considerations in special populations such as neonates and pediatrics, pregnant women, lactating mothers and geriatrics

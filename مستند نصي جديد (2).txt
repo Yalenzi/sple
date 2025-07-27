@@ -1,0 +1,58 @@
+Runtime Error
+
+
+ENOENT: no such file or directory, open 'C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\vendor-chunks\lucide-react.js'
+
+Call Stack
+44
+
+Show 42 ignore-listed frame(s)
+<unknown>
+.next\server\app\quiz\pharmaceutical\page.js (514:47)
+Object.<anonymous>
+.next\server\app\quiz\pharmaceutical\page.js (517:3)
+
+object
+: {8}
+props
+: {1}
+pageProps
+: {2}
+statusCode
+:
+500
+hostname
+:
+"localhost"
+page
+:
+"/_error"
+query
+:
+{}
+buildId
+:
+"development"
+isFallback
+:
+false
+err
+: {4}
+name
+:
+"Error"
+source
+:
+"server"
+message
+:
+"ENOENT: no such file or directory, open 'C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\vendor-chunks\lucide-react.js'"
+stack
+:
+"Error: ENOENT: no such file or directory, open 'C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\vendor-chunks\lucide-react.js' at Object.readFileSync (node:fs:442:20) at defaultLoadImpl (node:internal/modules/cjs/loader:1124:17) at loadSource (node:internal/modules/cjs/loader:1757:20) at Object..js (node:internal/modules/cjs/loader:1889:44) at Module.load (node:internal/modules/cjs/loader:1465:32) at Function._load (node:internal/modules/cjs/loader:1282:12) at TracingChannel.traceSync (node:diagnostics_channel:322:14) at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) at Module. (node:internal/modules/cjs/loader:1487:12) at mod.require (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\require-hook.js:68:28) at require (node:internal/modules/helpers:135:16) at __webpack_require__.f.require (C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\webpack-runtime.js:190:28) at C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\webpack-runtime.js:103:40 at Array.reduce () at __webpack_require__.e (C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\webpack-runtime.js:102:67) at Array.map () at __webpack_require__.X (C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\webpack-runtime.js:154:22) at C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\app\quiz\pharmaceutical\page.js:514:47 at Object. (C:\Users\Administrator\Documents\Sple-App-Yousef\.next\server\app\quiz\pharmaceutical\page.js:517:3) at Module._compile (node:internal/modules/cjs/loader:1730:14) at Object..js (node:internal/modules/cjs/loader:1895:10) at Module.load (node:internal/modules/cjs/loader:1465:32) at Function._load (node:internal/modules/cjs/loader:1282:12) at TracingChannel.traceSync (node:diagnostics_channel:322:14) at wrapModuleLoad (node:internal/modules/cjs/loader:235:24) at Module. (node:internal/modules/cjs/loader:1487:12) at mod.require (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\require-hook.js:68:28) at require (node:internal/modules/helpers:135:16) at requirePage (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\require.js:99:80) at loadComponentsImpl (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\load-components.js:132:57) at async DevServer.findPageComponentsImpl (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\next-server.js:900:36) at async DevServer.findPageComponents (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\dev\next-dev-server.js:671:16) at async DevServer.renderPageComponent (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\base-server.js:2380:24) at async DevServer.renderToResponseImpl (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\base-server.js:2434:32) at async DevServer.pipeImpl (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\base-server.js:1034:25) at async NextNodeServer.handleCatchallRenderRequest (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\next-server.js:393:17) at async DevServer.handleRequestImpl (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\base-server.js:925:17) at async C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\dev\next-dev-server.js:398:20 at async Span.traceAsyncFn (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\trace\trace.js:157:20) at async DevServer.handleRequest (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\dev\next-dev-server.js:394:24) at async invokeRender (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\lib\router-server.js:239:21) at async handleRequest (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\lib\router-server.js:436:24) at async requestHandlerImpl (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\lib\router-server.js:464:13) at async Server.requestListener (C:\Users\Administrator\Documents\Sple-App-Yousef\node_modules\next\dist\server\lib\start-server.js:218:13)"
+gip
+:
+true
+scriptLoader
+:
+{}

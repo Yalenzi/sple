@@ -1,0 +1,140 @@
+Pharmaceutical Sciences Practice Questions
+
+1. What is the primary mechanism of action of aspirin?
+A) COX-1 inhibition
+B) COX-2 inhibition  
+C) Both COX-1 and COX-2 inhibition
+D) Prostaglandin synthesis enhancement
+
+Answer: C
+Explanation: Aspirin irreversibly inhibits both cyclooxygenase-1 (COX-1) and cyclooxygenase-2 (COX-2) enzymes, which are responsible for prostaglandin synthesis.
+
+2. Which dosage form provides the fastest drug absorption?
+A) Tablets
+B) Capsules
+C) Intravenous injection
+D) Topical cream
+
+Answer: C
+Explanation: Intravenous injection provides immediate 100% bioavailability as the drug is directly administered into the systemic circulation.
+
+3. What is the half-life of a drug?
+A) Time for drug concentration to reach maximum
+B) Time for 50% of the drug to be eliminated from the body
+C) Time for drug to start working
+D) Time for drug to be completely eliminated
+
+Answer: B
+Explanation: Half-life (t½) is the time required for the plasma concentration of a drug to decrease by 50% during the elimination phase.
+
+4. Which factor does NOT affect drug absorption?
+A) pH of the stomach
+B) Blood flow to absorption site
+C) Drug's molecular weight
+D) Patient's hair color
+
+Answer: D
+Explanation: Patient's hair color has no physiological impact on drug absorption. Factors like pH, blood flow, and molecular weight significantly affect absorption.
+
+5. What is bioequivalence?
+A) Two drugs having the same chemical structure
+B) Two drugs having the same therapeutic effect
+C) Two drugs having similar bioavailability profiles
+D) Two drugs having the same side effects
+
+Answer: C
+Explanation: Bioequivalence means that two pharmaceutical products have similar bioavailability when administered at the same dose under similar conditions.
+
+Clinical Pharmacology Questions
+
+6. Which drug interaction mechanism involves competition for the same enzyme?
+A) Pharmacokinetic interaction
+B) Pharmacodynamic interaction
+C) Pharmaceutical interaction
+D) Physiological interaction
+
+Answer: A
+Explanation: Pharmacokinetic interactions occur when one drug affects the absorption, distribution, metabolism, or excretion of another drug, including enzyme competition.
+
+7. What is the therapeutic index?
+A) LD50/ED50
+B) ED50/LD50
+C) Maximum dose/Minimum dose
+D) Toxic dose/Effective dose
+
+Answer: A
+Explanation: Therapeutic index is the ratio of the median lethal dose (LD50) to the median effective dose (ED50), indicating the safety margin of a drug.
+
+8. Which route of administration avoids first-pass metabolism?
+A) Oral
+B) Sublingual
+C) Rectal (lower portion)
+D) Both B and C
+
+Answer: D
+Explanation: Sublingual and lower rectal routes bypass the liver, avoiding first-pass metabolism, unlike oral administration.
+
+9. What does Cmax represent in pharmacokinetics?
+A) Minimum effective concentration
+B) Maximum plasma concentration
+C) Concentration at steady state
+D) Clearance maximum
+
+Answer: B
+Explanation: Cmax is the maximum (peak) plasma concentration achieved after drug administration.
+
+10. Which factor increases drug clearance?
+A) Kidney disease
+B) Liver disease
+C) Increased hepatic blood flow
+D) Advanced age
+
+Answer: C
+Explanation: Increased hepatic blood flow enhances drug clearance by improving drug delivery to metabolizing enzymes in the liver.
+
+Pharmaceutical Calculations
+
+11. A patient weighs 70 kg and needs a drug dose of 5 mg/kg. What is the total dose?
+A) 300 mg
+B) 350 mg
+C) 400 mg
+D) 450 mg
+
+Answer: B
+Explanation: Total dose = 70 kg × 5 mg/kg = 350 mg
+
+12. If a 250 mg tablet contains 80% active ingredient, how much active drug is present?
+A) 180 mg
+B) 200 mg
+C) 220 mg
+D) 240 mg
+
+Answer: B
+Explanation: Active drug = 250 mg × 0.80 = 200 mg
+
+13. A solution contains 2% w/v of drug. How many grams are in 500 mL?
+A) 5 g
+B) 10 g
+C) 15 g
+D) 20 g
+
+Answer: B
+Explanation: 2% w/v means 2 g per 100 mL. In 500 mL: (2 g/100 mL) × 500 mL = 10 g
+
+14. What is the concentration if 50 mg is dissolved in 250 mL?
+A) 0.1 mg/mL
+B) 0.2 mg/mL
+C) 0.3 mg/mL
+D) 0.4 mg/mL
+
+Answer: B
+Explanation: Concentration = 50 mg ÷ 250 mL = 0.2 mg/mL
+
+15. A prescription calls for 30 tablets, each containing 25 mg. What is the total amount of drug?
+A) 650 mg
+B) 700 mg
+C) 750 mg
+D) 800 mg
+
+Answer: C
+Explanation: Total drug = 30 tablets × 25 mg/tablet = 750 mg
