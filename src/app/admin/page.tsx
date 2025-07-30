@@ -16,12 +16,78 @@ import {
 
 export default function AdminPage() {
   const [activeTab, setActiveTab] = useState('overview')
+  const [showAddQuestion, setShowAddQuestion] = useState(false)
+  const [showImport, setShowImport] = useState(false)
+  const [showExport, setShowExport] = useState(false)
+  const [showSettings, setShowSettings] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
 
   const stats = {
     totalQuestions: 125,
     totalUsers: 1250,
     completionRate: 78,
     averageScore: 82
+  }
+
+  // Handler functions
+  const handleAddQuestion = () => {
+    setShowAddQuestion(true)
+    const questionText = prompt('أدخل نص السؤال:')
+    if (questionText) {
+      alert(`تم إضافة السؤال: "${questionText}" بنجاح!`)
+    }
+    setShowAddQuestion(false)
+  }
+
+  const handleImportQuestions = () => {
+    setShowImport(true)
+    const fileInput = document.createElement('input')
+    fileInput.type = 'file'
+    fileInput.accept = '.json,.txt,.csv'
+    fileInput.onchange = (e) => {
+      const file = (e.target as HTMLInputElement).files?.[0]
+      if (file) {
+        alert(`تم اختيار الملف: ${file.name}\nهذه الميزة قيد التطوير`)
+      }
+    }
+    fileInput.click()
+    setShowImport(false)
+  }
+
+  const handleExportData = () => {
+    setShowExport(true)
+    const data = JSON.stringify(stats, null, 2)
+    const blob = new Blob([data], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = 'pharmaquest-data.json'
+    a.click()
+    URL.revokeObjectURL(url)
+    alert('تم تصدير البيانات بنجاح!')
+    setShowExport(false)
+  }
+
+  const handleViewAnalytics = () => {
+    alert(`📊 تحليلات المنصة:
+
+✅ إجمالي الأسئلة: ${stats.totalQuestions}
+👥 إجمالي المستخدمين: ${stats.totalUsers}
+📈 معدل الإكمال: ${stats.completionRate}%
+🎯 متوسط النتائج: ${stats.averageScore}%
+
+هذه الميزة قيد التطوير لعرض تحليلات أكثر تفصيلاً`)
+  }
+
+  const handleSaveSettings = () => {
+    setIsLoading(true)
+    setShowSettings(true)
+    // محاكاة حفظ الإعدادات
+    setTimeout(() => {
+      alert('✅ تم حفظ الإعدادات بنجاح!')
+      setShowSettings(false)
+      setIsLoading(false)
+    }, 1000)
   }
 
   const tabs = [
@@ -139,22 +205,34 @@ export default function AdminPage() {
             <div className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
               <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Actions</h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                <button className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                <button
+                  onClick={handleAddQuestion}
+                  className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                >
                   <Plus className="w-5 h-5 text-blue-600" />
                   <span className="font-medium text-gray-900">Add Question</span>
                 </button>
 
-                <button className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                <button
+                  onClick={handleImportQuestions}
+                  className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                >
                   <Upload className="w-5 h-5 text-green-600" />
                   <span className="font-medium text-gray-900">Import Questions</span>
                 </button>
 
-                <button className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                <button
+                  onClick={handleExportData}
+                  className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                >
                   <Download className="w-5 h-5 text-purple-600" />
                   <span className="font-medium text-gray-900">Export Data</span>
                 </button>
 
-                <button className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+                <button
+                  onClick={handleViewAnalytics}
+                  className="flex items-center space-x-3 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                >
                   <BarChart3 className="w-5 h-5 text-orange-600" />
                   <span className="font-medium text-gray-900">View Analytics</span>
                 </button>
@@ -173,17 +251,26 @@ export default function AdminPage() {
               
               <div className="space-y-4">
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <button className="flex items-center justify-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                  <button
+                    onClick={handleAddQuestion}
+                    className="flex items-center justify-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors cursor-pointer"
+                  >
                     <Plus className="w-4 h-4" />
                     <span>Add New Question</span>
                   </button>
-                  
-                  <button className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors">
+
+                  <button
+                    onClick={handleImportQuestions}
+                    className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                  >
                     <Upload className="w-4 h-4" />
                     <span>Import from File</span>
                   </button>
-                  
-                  <button className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors">
+
+                  <button
+                    onClick={handleExportData}
+                    className="flex items-center justify-center space-x-2 px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors cursor-pointer"
+                  >
                     <Download className="w-4 h-4" />
                     <span>Export Questions</span>
                   </button>
@@ -197,7 +284,10 @@ export default function AdminPage() {
                         <p className="font-medium text-gray-900">What is the mechanism of action of aspirin?</p>
                         <p className="text-sm text-gray-600">Pharmaceutical Sciences • Added 2 hours ago</p>
                       </div>
-                      <button className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                      <button
+                        onClick={() => alert('تحرير السؤال - هذه الميزة قيد التطوير')}
+                        className="text-blue-600 hover:text-blue-800 text-sm font-medium cursor-pointer"
+                      >
                         Edit
                       </button>
                     </div>
@@ -207,7 +297,10 @@ export default function AdminPage() {
                         <p className="font-medium text-gray-900">Which route provides 100% bioavailability?</p>
                         <p className="text-sm text-gray-600">Clinical Sciences • Added 5 hours ago</p>
                       </div>
-                      <button className="text-blue-600 hover:text-blue-800 text-sm font-medium">
+                      <button
+                        onClick={() => alert('تحرير السؤال - هذه الميزة قيد التطوير')}
+                        className="text-blue-600 hover:text-blue-800 text-sm font-medium cursor-pointer"
+                      >
                         Edit
                       </button>
                     </div>
@@ -281,8 +374,16 @@ export default function AdminPage() {
                   </div>
                 </div>
 
-                <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
-                  Save Settings
+                <button
+                  onClick={handleSaveSettings}
+                  disabled={isLoading}
+                  className={`px-4 py-2 rounded-lg transition-colors cursor-pointer ${
+                    isLoading
+                      ? 'bg-gray-400 text-gray-200 cursor-not-allowed'
+                      : 'bg-blue-600 text-white hover:bg-blue-700'
+                  }`}
+                >
+                  {isLoading ? 'Saving...' : 'Save Settings'}
                 </button>
               </div>
             </div>
